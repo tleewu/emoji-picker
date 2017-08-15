@@ -1,0 +1,61 @@
+.category-header.invisible {
+  display:none;
+}
+
+#pinned-emoji-category {
+  margin: 0px 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  position: fixed;
+  width: inherit;
+  z-index: 1;
+}
+
+#emoji-selector {
+  margin-top: 15px;
+  height: 240px;
+  overflow: auto;
+}
+
+#active-emoji-description {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: inherit;
+}
+
+.icon-tab {
+  padding: 5px;
+}
+.icon-tab.active {
+  border-bottom: 2px solid blue;
+}
+
+#search-emoji-field {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-size: 15px;
+  margin: 0;
+  height: 28px;
+  width: 100%;
+  border-radius: 14px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #e5e5e5;
+}
+
+#search-emoji-field:focus {
+  outline:none;
+}
+
+#emoji-picker {
+  width: 360px;
+  height: 380px;
+  position: relative;
+  padding: 8px;
+  border: 1px solid #e5e5e5;
+}
